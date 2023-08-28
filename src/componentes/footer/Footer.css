@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+ }
+footer{
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0px;
+    align-items: center;
+    width: 100vw;
+    height: 6vw;
+}
+.lg{
+    padding: 0px 10vw;
+    color: white;
+    font-size: 35px;
+}
+footer ul{
+    gap: 50px;
+    margin-right: 10vw;
+    font-size: 18px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+footer nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
