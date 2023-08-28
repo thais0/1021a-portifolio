@@ -3,10 +3,9 @@ function Portfolio(){
     return(
         <main>
              <div className="img">
-                <img src="img/portfolio-logo-ERConsultoria.webp" alt=""/>
+                <img src="src/assets/img/portfolio-logo-ERConsultoria.webp" alt=""/>
             </div>
         </main>
     )
 }
-
 export default Portfolio
