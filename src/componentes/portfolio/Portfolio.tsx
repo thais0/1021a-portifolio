@@ -1,9 +1,10 @@
 import './Portfolio.css'
+import Fundo from './../../assets/img/portfolio-logo-ERConsultoria.webp'
+
 function Portfolio(){
     return(
         <main>
-             <div className="img">
-                <img src="src/assets/img/portfolio-logo-ERConsultoria.webp" alt=""/>
+             <div style={{backgroundImage: `url(${Fundo})`}} className="img">
             </div>
         </main>
     )

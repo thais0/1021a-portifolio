@@ -5,7 +5,7 @@ import './App.css'
 
 function App(){
   return(
-    <div><Header/><Footer/><Portfolio/></div>
+    <div><Header/><Portfolio/><Footer/></div>
   )
 }
 export default App
