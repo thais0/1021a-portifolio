@@ -29,6 +29,12 @@ const projetos:ProjetoType[] = [
         titulo:'Estágio',
         descricao:'Esse estágio foi feito na refrigeração do Gilmar, onde eu fazia nota, boleto, atendia as pessoas e anotava pedido de gelo.',
         imagem:'/estagio.jpg'
+   },
+   {  
+        id:4,
+        titulo:'Site de Volei',
+        descricao:'Esse projeto é um site de volei, onde vende acessórios de volei.',
+        imagem:'/volei.jpg'
    }
 ]
     function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
