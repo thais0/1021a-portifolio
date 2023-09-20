@@ -15,20 +15,20 @@ const projetos:ProjetoType[] = [
     {
          id:1,
          titulo:'Site da Barbie',
-         descricao:'Estamos usando ele como base para criar nosso portfolio',
+         descricao:'Estamos usando o site da barbie, como base para criar nosso portfolio.',
          imagem:'/barbie.png'
     },
     {  
          id:2,
-         titulo:'App gerel',
+         titulo:'Aplicativo Gerel',
          descricao:'Para melhor gerenciamento dos clientes e atividades da empresa GEREL, o sistema servirá para armazenar as informações dos usuários e eventos.',
-         imagem:'/Conesul Voleibol.jpeg'
+         imagem:'/gerel.png'
     },
     {  
         id:3,
         titulo:'Estágio',
-        descricao:'Esse estágio foi feito na regrigeração do Gilmar, onde eu fazia nota, boleto, atendia as pessoas e anotava pedido de gelo',
-        imagem:'/'
+        descricao:'Esse estágio foi feito na refrigeração do Gilmar, onde eu fazia nota, boleto, atendia as pessoas e anotava pedido de gelo.',
+        imagem:'/estagio.jpg'
    }
 ]
     function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
@@ -46,9 +46,13 @@ const projetos:ProjetoType[] = [
               (texto)?
               <p>Resultados Para: {texto}</p>:""
             }
+            <div className='contents'>
+            <div className='content'>
             {
               projetos.filter((projeto)=>projeto.titulo.toLowerCase().includes(texto)).map((projeto)=><Projeto key={projeto.id} titulo={projeto.titulo} descricao={projeto.descricao} imagem={projeto.imagem}/>)
             }
+            </div>
+            </div>
         </div>
         </>
     )
