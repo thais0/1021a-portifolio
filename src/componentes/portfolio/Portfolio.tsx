@@ -14,8 +14,8 @@ const [texto,setTexto]=useState("")
 const projetos:ProjetoType[] = [
     {
          id:1,
-         titulo:'Barbie',
-         descricao:'Depois de ser expulsa da Barbieland por ser uma boneca de aparência menos do que perfeita, Barbie parte para o mundo humano em busca da verdadeira felicidade.',
+         titulo:'Site da Barbie',
+         descricao:'Estamos usando ele como base para criar nosso portfolio',
          imagem:'/barbie.png'
     },
     {  
@@ -23,7 +23,13 @@ const projetos:ProjetoType[] = [
          titulo:'App gerel',
          descricao:'Para melhor gerenciamento dos clientes e atividades da empresa GEREL, o sistema servirá para armazenar as informações dos usuários e eventos.',
          imagem:'/Conesul Voleibol.jpeg'
-    }
+    },
+    {  
+        id:3,
+        titulo:'Estágio',
+        descricao:'Esse estágio foi feito na regrigeração do Gilmar, onde eu fazia nota, boleto, atendia as pessoas e anotava pedido de gelo',
+        imagem:'/'
+   }
 ]
     function TrataTexto(e:React.ChangeEvent<HTMLInputElement>){
     setTexto (e.target.value)
