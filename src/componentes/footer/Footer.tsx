@@ -3,7 +3,7 @@ function Footer(){
     return(
         <footer>
             <div>
-        <h1 className="lg">Thais</h1>
+        <h1 className="lg">Thaís</h1>
     </div>
     <nav>
         <ul>
