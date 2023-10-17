@@ -9,7 +9,7 @@ function Header(){
     <nav>
         <ul>
             <li>
-                <LinkNav url="/Home" texto='Home'/>
+                <LinkNav url="/" texto='Home'/>
             </li>
             <li>
                 <LinkNav url="/Projetos" texto='Projetos'/>

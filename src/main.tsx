@@ -20,10 +20,6 @@ const router = createBrowserRouter([
             </>,
   },
   {
-    path: "/Home",
-    element: <div>Página Home!</div>,
-  },
-  {
     path: "/Projetos",
     element: <div>Página de Projetos!</div>,
   },
@@ -33,24 +29,21 @@ const router = createBrowserRouter([
   },
   {
     path: "/contato",
-    element: <div className='Contato'>
-      <nav>
-        <ul>
-          <li>
-            <p>Nome:</p>
-          </li>
-          <li>
-            <p>E-mail:</p>
-          </li>
-          <li>
-            <p>Telefone:</p>
-          </li>
-          <li>
-            <p>Endereço:</p>
-          </li>
-        </ul>
-      </nav>
+    element: 
+    <>
+    <Header/>
+    <div className='Contato'>
+      <form className='CTT'>
+            <input type="text" placeholder='Nome'/>
+            <input type="email" placeholder='E-mail'/>
+            <input type="tel" placeholder='Telefone'/>
+            <input type="text" placeholder='Endereço'/>
+            <button>Enviar</button>
+        </form>
       </div>
+      
+      <Footer/>
+      </>
   },
 ]);
 
