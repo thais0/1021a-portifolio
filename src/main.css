@@ -18,14 +18,14 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.CTT input{
+.contato-form{
     border: 1px solid rgb(156, 156, 156);
     margin: 0;
     text-align: start;
     padding-left: 30px;
     width: 100%;
 }
-.CTT button{
+.button{
     height: 30px;
     width: 200px;
     background-color: black;
@@ -34,7 +34,7 @@ body{
     border: 0;
     transition: 0.2s;
 }
-.CTT button:hover{
+.button:hover{
     background-color: rgb(116, 116, 116);
     transform: scale(1.1);
 }

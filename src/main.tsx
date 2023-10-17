@@ -34,11 +34,11 @@ const router = createBrowserRouter([
     <Header/>
     <div className='Contato'>
       <form className='CTT'>
-            <input type="text" placeholder='Nome'/>
-            <input type="email" placeholder='E-mail'/>
-            <input type="tel" placeholder='Telefone'/>
-            <input type="text" placeholder='Endereço'/>
-            <button>Enviar</button>
+            <input className='contato-form' type="text" placeholder='Nome'/>
+            <input className='contato-form' type="email" placeholder='E-mail'/>
+            <input className='contato-form' type="tel" placeholder='Telefone'/>
+            <input className='contato-form' type="text" placeholder='Endereço'/>
+            <input type="submit" className="button" placeholder='Enviar'/>
         </form>
       </div>
       
