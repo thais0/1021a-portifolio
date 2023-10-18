@@ -4,6 +4,7 @@ import "./main.css"
 import Header from './componentes/header/Header'
 import Portfolio from './componentes/portfolio/Portfolio'
 import Footer from './componentes/footer/Footer'
+import Contato from './componentes/contato/Contato'
 
 import {
   createBrowserRouter,
@@ -32,18 +33,9 @@ const router = createBrowserRouter([
     element: 
     <>
     <Header/>
-    <div className='Contato'>
-      <form className='CTT'>
-            <input className='contato-form' type="text" placeholder='Nome'/>
-            <input className='contato-form' type="email" placeholder='E-mail'/>
-            <input className='contato-form' type="tel" placeholder='Telefone'/>
-            <input className='contato-form' type="text" placeholder='Endereço'/>
-            <input type="submit" className="button" placeholder='Enviar'/>
-        </form>
-      </div>
-      
-      <Footer/>
-      </>
+    <Contato/>
+    <Footer/>
+    </>
   },
 ]);
 

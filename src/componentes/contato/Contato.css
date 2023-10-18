@@ -1,0 +1,43 @@
+.Contato{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 720px;
+    background-color: rgb(209, 209, 209);
+}
+
+.CTT{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+.CTT input{
+    border: 1px solid rgb(156, 156, 156);
+    margin: 0;
+    text-align: start;
+    padding-left: 30px;
+    width: 100%;
+}
+
+.CTT button{
+    height: 30px;
+    width: 200px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border: 0;
+    transition: 0.2s;
+}
+.CTT button:hover{
+    background-color: rgb(116, 116, 116);
+    transform: scale(1.1);
+}
+.Cdigitado{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
