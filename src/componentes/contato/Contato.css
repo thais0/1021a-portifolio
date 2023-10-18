@@ -3,10 +3,9 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    min-height: 720px;
+    min-height: 714px;
     background-color: rgb(209, 209, 209);
 }
-
 .CTT{
     display: flex;
     flex-direction: column;
@@ -22,7 +21,6 @@
     padding-left: 30px;
     width: 100%;
 }
-
 .CTT button{
     height: 30px;
     width: 200px;
